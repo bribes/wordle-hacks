@@ -35,3 +35,12 @@ The Script:
 ```javascript
 /* made by github.com/bribes */ var ghbribes=prompt(atob("RW50ZXIgdGV4dA=="),"github.com/bribes"); /* made by github.com/bribes */ function bribes(array,length,fill){return length>array.length?array.concat(Array(length-array.length).fill(fill)):array;}var wordedit=JSON.stringify(bribes(ghbribes.replace(/[^A-Za-z]/g,'').match(/.{1,5}/g).splice(0,6), 6, "")); /* made by github.com/bribes */ localStorage.gameState=`{"boardState":${wordedit},"evaluations":[["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"]],"rowIndex":1,"solution":"github.com/bribes","gameStatus":"WIN","lastPlayedTs":${new Date().valueOf()},"lastCompletedTs":${new Date().valueOf()},"restoringFromLocalStorage":true,"hardMode":true}`;window.location.href=window.location.href /* made by github.com/bribes */
 ```
+
+# Edit yours stats
+
+![image](https://user-images.githubusercontent.com/52789876/152078900-12554a7e-d984-4099-842f-e31ade010e1f.png)
+
+The Script:
+```javascript
+/* made by github.com/bribes */ var ghbribes1=prompt(atob("UGxheWVk"),"github.com/bribes"); /* made by github.com/bribes */ var ghbribes2=prompt(atob("V2luICU="),"github.com/bribes") /* made by github.com/bribes */ ;var ghbribes3=prompt(atob("Q3VycmVudCBTdHJlYWs="),"github.com/bribes"); /* made by github.com/bribes */ var ghbribes4=prompt(atob("TWF4IFN0cmVhaw=="),"github.com/bribes"); /* made by github.com/bribes */ localStorage.statistics=`{"currentStreak":"${ghbribes3}","maxStreak":"${ghbribes4}","guesses":{"1":69420,"5":0,"3":0,"4":0,"5":0,"6":0,"fail":0},"winPercentage":"${ghbribes2}","gamesPlayed":"${ghbribes1}","gamesWon":100,"averageGuesses":100}`;window.location.href=window.location.href; /* made by github.com/bribes */
+```
