@@ -1,7 +1,7 @@
 # Wordle Hacks
 Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this if you want to actually have fun)**
 
-The code is a lot less complicated then it looks its just that I obfuscated to stop people from stealing the code you can use a deobfuscator to try to read the code.
+The code is a lot less complicated then it looks its just that I obfuscated to stop people from stealing the code and using it as theirs you can use a deobfuscator to try to understand the code.
 
 ## Ways to execute the script:
 
