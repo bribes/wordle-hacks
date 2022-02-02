@@ -52,4 +52,4 @@ Resetting your Stats:
 localStorage.statistics=""
 ```
 
-Create a [issue](https://github.com/bribes/wordle-hacks/issues) if you're having a problem with the scripts.
+Create a [issue](https://github.com/bribes/wordle-hacks/issues) if you're having problems with the scripts.
