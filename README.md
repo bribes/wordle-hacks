@@ -19,14 +19,25 @@ The Script:
 ```
 
 # WARNING! All the scripts below here will stay even when you refresh
-The only way to remove any trace of manipulating the code is to reset all your stats, so be warned.
+The only way to remove any trace of manipulating the code is to reset either the board, stats or even both, so be warned.
 
 The scripts here are mostly harmless.
 
 ## Resetting Stats
 
-The Script:
+The Scripts:
 
+Reset the board.
+```javascript
+localStorage.gameState=""
+```
+
+Reset your stats.
+```javascript
+localStorage.statistics=""
+```
+
+Reset the both the board and your stats.
 ```javascript
 localStorage.gameState="";localStorage.statistics=""
 ```
