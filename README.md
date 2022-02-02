@@ -15,6 +15,17 @@ The Script:
 }); /* made by github.com/bribes */
 ```
 
+# WARNING! All the scripts below here will stay even when you refresh
+The only way to remove any trace of manipulating the code you have to reset all your stats, so be warned.
+
+## Resetting Stats
+
+The Script:
+
+```javascript
+localStorage.gameState="";localStorage.statistics=""
+```
+
 # Edit the board
 For this script everything except letters will be removed from what you input.
 
@@ -22,5 +33,5 @@ For this script everything except letters will be removed from what you input.
 
 The Script:
 ```javascript
-var ghbribes=prompt(atob("RW50ZXIgdGV4dA=="),"github.com/bribes");function padArray(array,length,fill){return length>array.length?array.concat(Array(length-array.length).fill(fill)):array;}var wordedit=JSON.stringify(padArray(ghbribes.replace(/[^A-Za-z]/g,'').match(/.{1,5}/g).splice(0,6), 6, ""));localStorage.gameState=`{"boardState":${wordedit},"evaluations":[["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"]],"rowIndex":1,"solution":"github.com/bribes","gameStatus":"WIN","lastPlayedTs":${new Date().valueOf()},"lastCompletedTs":${new Date().valueOf()},"restoringFromLocalStorage":true,"hardMode":true}`;window.location.href=window.location.href;
+/* made by github.com/bribes */ var ghbribes=prompt(atob("RW50ZXIgdGV4dA=="),"github.com/bribes"); /* made by github.com/bribes */ function bribes(array,length,fill){return length>array.length?array.concat(Array(length-array.length).fill(fill)):array;}var wordedit=JSON.stringify(bribes(ghbribes.replace(/[^A-Za-z]/g,'').match(/.{1,5}/g).splice(0,6), 6, "")); /* made by github.com/bribes */ localStorage.gameState=`{"boardState":${wordedit},"evaluations":[["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"],["correct","correct","correct","correct","correct"]],"rowIndex":1,"solution":"github.com/bribes","gameStatus":"WIN","lastPlayedTs":${new Date().valueOf()},"lastCompletedTs":${new Date().valueOf()},"restoringFromLocalStorage":true,"hardMode":true}`;window.location.href=window.location.href /* made by github.com/bribes */
 ```
