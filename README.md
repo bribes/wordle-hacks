@@ -1,5 +1,5 @@
 # Wordle Hacks
-Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this if you wanna have fun)**
+Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this if you want to actually have fun)**
 
 ## Ways to execute the script:
 
