@@ -16,6 +16,7 @@ The Script:
 ```
 
 # Edit the board
+For this script everything except letters will be removed from what you input.
 
 ![image](https://user-images.githubusercontent.com/52789876/152076636-9e6e12fc-fb74-4a7d-8917-e4e14932556c.png)
 
