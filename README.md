@@ -7,7 +7,7 @@ Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this i
 
 ### Go into Inspect Element then go into the console then paste the script in.
 
-## Get the word of the day
+## Get the word of the day (WARNING: This is a fun ruiner)
 
 The Script:
 ```javascript
