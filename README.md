@@ -16,7 +16,7 @@ The Script:
 ```
 
 # WARNING! All the scripts below here will stay even when you refresh
-The only way to remove any trace of manipulating the code you have to reset all your stats, so be warned.
+The only way to remove any trace of manipulating the code is to reset all your stats, so be warned.
 
 ## Resetting Stats
 
