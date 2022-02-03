@@ -7,6 +7,8 @@ The code is a lot less complicated then it looks its just that I obfuscated to s
 
 ### Make a bookmark type `javascript:` then the code.
 
+### Type `javascript:` then the code into the URL box and press ENTER.
+
 ### Go into Inspect Element then go into the console then paste the script in.
 
 ## Get the word of the day (WARNING: This is a fun ruiner)
