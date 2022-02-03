@@ -3,7 +3,7 @@ Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this i
 
 The code is a lot less complicated then it looks its just that I obfuscated to stop people from stealing the code and using it as theirs you can use a deobfuscator to try to understand the code.
 
-## Ways to execute the script:
+## 3 ways to execute the scripts:
 
 #### #1 Make a bookmark with `javascript:` then the code as the URL.
 
