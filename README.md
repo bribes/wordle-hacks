@@ -5,11 +5,11 @@ The code is a lot less complicated then it looks its just that I obfuscated to s
 
 ## Ways to execute the script:
 
-#### Make a bookmark with `javascript:` then the code as the URL.
+#### #1 Make a bookmark with `javascript:` then the code as the URL.
 
-#### Type `javascript:` then the code into the URL box and press ENTER.
+#### #2 Type `javascript:` then the code into the URL box and press ENTER.
 
-#### Go into Inspect Element (CTRL + SHIFT + I) then go into the console then paste the script in.
+#### #3 Go into Inspect Element (CTRL + SHIFT + I) then go into the console then paste the script in.
 
 ## Get the word of the day (WARNING: This is a fun ruiner)
 
