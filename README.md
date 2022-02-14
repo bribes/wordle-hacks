@@ -3,7 +3,7 @@ Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this i
 
 The code is a lot less complicated then it looks its just that I obfuscated to stop people from stealing the code and using it as theirs you can use a deobfuscator to try to understand the code.
 
-PS. All the people "Leaking" the Word List all they are doing is right clicking pressing "View Page Source" going to the .js file (Ex. main.92j9aw.js) used to run the site and finding (Ctrl + F) the current word for example "Ultra" and then itll show a Array of all the other words that are next, they are not "hackers" just glorified script kiddies.
+PS. All the people "Leaking" the Word List all they are doing is right clicking pressing "View Page Source" going to the .js file (Ex. main.92j9aw.js) used to run the site and finding (Ctrl + F) the current word for example "Ultra" and then itll show a Array of all the other words that are next, they are not "hackers" just glorified script kiddies. What I do here isn't too complicated and if you took the time to understand JavaScript it would look super basic.
 
 ## 3 ways to execute the scripts:
 
