@@ -3,6 +3,8 @@ Many hacks, exploits and cheats for the popular game Wordle. **(Don't use this i
 
 The code is a lot less complicated then it looks its just that I obfuscated to stop people from stealing the code and using it as theirs you can use a deobfuscator to try to understand the code.
 
+PS. All the people "Leaking" the Word List all they are doing is right clicking pressing "View Page Source" going to the .js file (Ex. main.92j9aw.js) used to run the site and finding (CTRL + F) the current word for example "Ultra" and then itll show a Array of all the other words that are next, they are not "hackers" just glorified script kiddies.
+
 ## 3 ways to execute the scripts:
 
 #### #1 Make a bookmark with `javascript:` then the code as the URL.
@@ -12,6 +14,7 @@ The code is a lot less complicated then it looks its just that I obfuscated to s
 #### #3 Go into Inspect Element (CTRL + SHIFT + I) then go into the console then paste the script in.
 
 ## Get the word of the day (WARNING: This is a fun ruiner)
+This is possible since the have a list of all the coming words in the source code which is easily accessible via right clicking and pressing "View Page Source" then going the the .js file (Ex. main.92j9aw.js) running the site and also is accessible via JavaScript.
 
 ![image](https://user-images.githubusercontent.com/52789876/152241083-64712717-0555-4f04-b1cd-4581bf8dfdc1.png)
 
@@ -26,7 +29,7 @@ The only way to remove any trace of manipulating the code is to reset either the
 The scripts below are mostly harmless.
 
 # Edit the Board
-For this script everything except letters will be removed from what you input.
+For this script everything except letters will be removed from what you input. This is made possible since the board state is stored in Local Storage which is easily accessible with JavaScript and also Inspect Element (Ctrl + Shift + I).
 
 ![image](https://user-images.githubusercontent.com/52789876/152076636-9e6e12fc-fb74-4a7d-8917-e4e14932556c.png)
 
@@ -41,6 +44,7 @@ localStorage['nyt-wordle-state']=""
 ```
 
 # Edit your Stats
+This is made possible since your statistics are stored in Local Storage which is easily accessible with JavaScript and also Inspect Element (Ctrl + Shift + I).
 
 ![image](https://user-images.githubusercontent.com/52789876/152078900-12554a7e-d984-4099-842f-e31ade010e1f.png)
 
