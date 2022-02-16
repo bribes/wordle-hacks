@@ -50,7 +50,7 @@ This is made possible since your statistics are stored in Local Storage which is
 
 The Code:
 ```javascript
-/* made by github.com/bribes */ var ghbribes1=prompt(atob("UGxheWVk"),"github.com/bribes"); /* made by github.com/bribes */ var ghbribes2=prompt(atob("V2luICU="),"github.com/bribes") /* made by github.com/bribes */ ;var ghbribes3=prompt(atob("Q3VycmVudCBTdHJlYWs="),"github.com/bribes"); /* made by github.com/bribes */ var ghbribes4=prompt(atob("TWF4IFN0cmVhaw=="),"github.com/bribes"); /* made by github.com/bribes */ localStorage['nyt-wordle-statistics']=`{"currentStreak":"${ghbribes3}","maxStreak":"${ghbribes4}","guesses":{"1":69420,"5":0,"3":0,"4":0,"5":0,"6":0,"fail":0},"winPercentage":"${ghbribes2}","gamesPlayed":"${ghbribes1}","gamesWon":100,"averageGuesses":100}`;window.location.href=window.location.href; /* made by github.com/bribes */
+/* made by github.com/bribes */ var ghbribes1=prompt(atob("UGxheWVk"),"github.com/bribes"); /* made by github.com/bribes */ var ghbribes2=prompt(atob("V2luICU="),"github.com/bribes") /* made by github.com/bribes */ ;var ghbribes3=prompt(atob("Q3VycmVudCBTdHJlYWs="),"github.com/bribes"); /* made by github.com/bribes */ var ghbribes4=prompt(atob("TWF4IFN0cmVhaw=="),"github.com/bribes"); /* made by github.com/bribes */ localStorage['nyt-wordle-statistics']=`{"currentStreak":"${ghbribes3}","maxStreak":"${ghbribes4}","guesses":{"1":69420,"2":0,"5":0,"3":0,"4":0,"5":0,"6":0,"fail":0},"winPercentage":"${ghbribes2}","gamesPlayed":"${ghbribes1}","gamesWon":100,"averageGuesses":100}`;window.location.href=window.location.href; /* made by github.com/bribes */
 ```
 
 Resetting your Stats:
