@@ -25,13 +25,13 @@ The only way to remove any trace of manipulating the code is to reset either the
 The scripts below are mostly harmless.
 
 # Edit the Board
-For this script everything except letters will be removed from what you input. This is made possible since the board state is stored in Local Storage which is easily accessible with JavaScript and also Inspect Element (Ctrl + Shift + I).
+This is made possible since the board state is stored in Local Storage which is easily accessible with JavaScript and also Inspect Element (Ctrl + Shift + I).
 
 ![image](https://user-images.githubusercontent.com/52789876/152076636-9e6e12fc-fb74-4a7d-8917-e4e14932556c.png)
 
 The Code:
 ```javascript
-/* made by github.com/bribes */const fetchWordle=async t=>{const e=await fetch(`https://www.nytimes.com/svc/wordle/v2/${t}.json`);return(await e.json()).id};var today=(new Date).toISOString().split("T")[0],ghbribes=prompt(atob("RW50ZXIgdGV4dA=="),"github.com/bribes");function bribes(t,e,r){return e>t.length?t.concat(Array(e-t.length).fill(r)):t}var wordedit=bribes(ghbribes.replace(/[^A-Za-z]/g,"").match(/.{1,5}/g).splice(0,6),6,"");localStorage["games-state-wordleV2/ANON"]=`{"states":[{"data":{"boardState":${JSON.stringify(wordedit)},"currentRowIndex":${wordedit.filter((t=>t)).length},"status":"${wordedit.filter((t=>t)).length===6?'WIN':'IN_PROGRESS'}"},"puzzleId":"${await fetchWordle(today)}"}]}`,location.reload()/* made by github.com/bribes */
+/* made by github.com/bribes */const fetchWordle=async t=>{const e=await fetch(`https://www.nytimes.com/svc/wordle/v2/${t}.json`);return(await e.json()).id};var today=(new Date).toISOString().split("T")[0],ghbribes=prompt(atob("RW50ZXIgdGV4dA=="),"github.com/bribes");function bribes(t,e,r){return e>t.length?t.concat(Array(e-t.length).fill(r)):t}var wordedit=bribes(ghbribes.match(/.{1,5}/g).splice(0,6),6,"");localStorage["games-state-wordleV2/ANON"]=`{"states":[{"data":{"boardState":${JSON.stringify(wordedit)},"currentRowIndex":${wordedit.filter((t=>t)).length},"status":"${wordedit.filter((t=>t)).length===6?'WIN':'IN_PROGRESS'}"},"puzzleId":"${await fetchWordle(today)}"}]}`,location.reload()/* made by github.com/bribes */
 ```
 
 Resetting the Board:
